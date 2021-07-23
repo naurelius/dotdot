@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.flex-basis-100 {
+  flex-basis: 100%;
+}
+
+.md\:flex-basis-100 {
+  flex-basis: 100%;
+}
+
+.flex-basis-0 {
+  flex-basis: 0%
+}
+
+@media screen and (min-width: 768px) {
+  .md\:flex-basis-0 {
+    flex-basis: 0%;
+  }
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf") format('truetype'), url("../fonts/OpenSans-SemiBold.ttf") format('truetype'), url("../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat-Medium.ttf") format("truetype"), url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

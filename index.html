@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="emerald" style="transition: 0.4s">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dot Dot</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/boxicons.min.css" />
+    <script src="js/eruda.js"></script>
+    <script>
+      eruda.init();
+    </script>
+  </head>
+  <body class="font-body relative">
+    <header class="fixed w-full z-50 h-12">
+      <nav class="relative flex flex-wrap md:flex-nowrap items-center justify-between py-2 shadow-lg bg-primary mb-2 text-white" id="navbar">
+        
+          <div class=""><a href="#" class="text-lg font-semibold pl-6">Dot Dot</a></div>
+          
+          <div class="justify-end">
+            <button href="" class="btn btn-ghost mr-4 text-2xl md:hidden" id="navToggle">
+              <i class="bx bx-menu"></i>
+            </button>
+          </div>
+        
+        <div id="navMenu" class="hidden flex-grow-1 items-center md:block md:justify-center flex-basis-100 md:flex-basis-0 md:mr-4">
+          <ul class="flex flex-col md:justify-between p-0 m-0 jusify-between text-center md:flex-row" id="navList">
+            <li class="text-base font-medium py-1 mx-4"><a class="navItem" href="#home">Home</a></li>
+            <li class="text-base font-medium py-1 nx-4"><a class="navItem" href="#about">About</a></li>
+            <li class="text-base font-medium py-1 mx-4">
+              <a class="navItem" href="#services">Services</a>
+            </li>
+            <li class="text-base font-medium py-1 md:mx-4">
+              <a class="navItem" href="#pricing">Pricing</a>
+            </li>
+            <li class="text-base font-medium py-1 mx-4">
+              <a class="navItem" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="h-96 mx-6 md:container md:mx-auto" id="home">
+        <div class="grid gap-4 relative">
+          <button class="absolute top-16 right-0 btn btn-ghost text-lg mr-2 shadow-xl hover:shadow-2xl rounded-full" id="darkToggle">
+            <i class="bx bxs-moon" id="darkIcon"></i>
+          </button>
+          <div class="absolute top-0 left-0 transform translate-y-1/2">
+            <span
+              class="
+                block
+                h-16
+                w-16
+                md:h-20
+                md:w-20
+                flex
+                items-center
+                text-4xl
+                md:text-5xl
+                justify-center
+                shadow-lg
+                rounded-full
+              "
+            >
+              <i class="bx bxs-server text-4xl"></i>
+            </span>
+            <h1 class="md:text-6xl text-4xl font-bold font-title">Dot Dot</h1>
+            <span class="block my-4 text-lg md:text-2xl font-semibold capitalize">Fast internet hosting</span>
+            <a href="" class="btn btn-primary">Get Started</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="sm:container mx-6 md:container md:mx-auto" id="services">
+        <div class="grid gap-10 mt-12">
+          <div>
+            <h2 class="text-xl text-center font-semibold">Services</h2>
+            <span class="block text-sm mt-2 font-medium text-center capitalize">Fast and scalable hosting for everyone</span>
+          </div>
+          <div class="md:grid grid gap-6 md:grid-cols-2 md:gap-10 lg:grid-cols-4">
+          <!--===== Card 1 ======-->
+          <div class="card text-center shadow-2xl">
+            <div class="card-body">
+              <h3 class="card-title">Shared Hosting</h3>
+              <div>
+                <span class="block text-lg text-left font-semibold">Features</span>
+              </div>
+              <div class="text-left text-base font-medium mt-2">
+                <ul>
+                  <li class="py-2">Unlimited Storage</li>
+                  <li class="py-2">Unlimited BandWidth</li>
+                  <li class="py-2">Domain Registration</li>
+                  <li class="py-2">Free SSL Certificate</li>
+                </ul>
+                <small class="text-xs font-extralight">Terms and conditions apply<span class="text-error">*</span></small>
+              </div>
+              <div class="card-actions">
+                <a href="" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <!--======= Card 2 ======-->
+          <div class="card text-center bg-primary text-white shadow-2xl">
+            <div class="card-body">
+              <h3 class="card-title">Dedicated Hosting</h3>
+              <div>
+                <span class="block text-lg text-left font-semibold">Features</span>
+              </div>
+              <div class="text-left text-base font-medium mt-2">
+                <ul>
+                  <li class="py-2">Unlimited Storage</li>
+                  <li class="py-2">Unlimited BandWidth</li>
+                  <li class="py-2">Domain Registration</li>
+                  <li class="py-2">Free SSL Certificate</li>
+                </ul>
+                <small class="text-xs font-extralight">Terms and conditions apply<span class="text-error">*</span></small>
+              </div>
+              <div class="card-actions">
+                <a href="" class="btn btn-secondary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <!--====== Card 3 =====-->
+          <div class="card text-center border-2 border-primary shadow-2xl">
+            <div class="card-body">
+              <h3 class="card-title">Application Hosting</h3>
+              <div>
+                <span class="block text-lg text-left font-semibold">Features</span>
+              </div>
+              <div class="text-left text-base font-medium mt-2">
+                <ul>
+                  <li class="py-2">Unlimited Storage</li>
+                  <li class="py-2">Unlimited BandWidth</li>
+                  <li class="py-2">Domain Registration</li>
+                  <li class="py-2">Free SSL Certificate</li>
+                </ul>
+                <small class="text-xs font-extralight"
+                  >Terms and conditions apply<span class="text-error">*</span></small>
+              </div>
+              <div class="card-actions">
+                <a href="" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card text-center bg-primary text-white border-2 border-secondary shadow-2xl">
+            <div class="card-body">
+              <h3 class="card-title">Cloud Hosting</h3>
+              <div>
+                <span class="block text-lg text-left font-semibold">Features</span>
+              </div>
+              <div class="text-left text-base font-medium mt-2">
+                <ul>
+                  <li class="py-2">Unlimited Storage</li>
+                  <li class="py-2">Unlimited BandWidth</li>
+                  <li class="py-2">Domain Registration</li>
+                  <li class="py-2">Free SSL Certificate</li>
+                </ul>
+                <small class="text-xs font-extralight"
+                  >Terms and conditions apply<span class="text-error">*</span></small>
+              </div>
+              <div class="card-actions">
+                <a href="" class="btn btn-secondary">Learn More</a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sm:container mx-6 md:container md:mx-auto">
+        <div class="grid gap-6 mt-12">
+          <div> 
+            <h2 class="text-xl text-center font-semibold">Work With The Tools You Love</h2>
+          </div>
+          <div class="grid grid-cols-4 gap-6 justify-evenly text-center text-4xl items-center">
+            <span><i class="hover:text-primary bx bxl-wordpress transform hover:scale-110"></i></span>
+            <span><i class="hover:text-primary bx bxl-android transform hover:scale-110"></i></span>
+            <span><i class="hover:text-primary bx bxl-kubernetes transform hover:scale-110"></i></span>
+            <span><i class="hover:text-primary bx bxl-python transform hover:scale-110"></i></span>
+            <span><i class="hover:text-primary bx bxl-javascript transform hover:scale-110"></i></span>
+            <span><i class="hover:text-primary bx bxl-html5 transform hover:scale-110"></i></span>
+            <span><i class="hover:text-primary bx bxl-css3 transform hover:scale-110"></i></span>
+            <span><i class="hover:text-primary bx bxl-nodejs transform hover:scale-110"></i></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="sm:container mx-6 md:container md:mx-auto" id="about">
+        <div class="grid gap-10 mt-12">
+          <div>
+            <h2 class="text-xl text-center font-semibold">About</h2>
+            <span class="block text-sm mt-2 font-medium text-center capitalize">Who we are</span>
+          </div>
+          <div class="md:grid md:gap-6 md:grid-cols-3">
+            <div class="md:border-r-2">
+            <span class="block text-lg font-semibold text-center my-2">6+</span>
+            <span class="block my-1 text-base font-light text-center">Years Experience</span>
+            </div>
+            <div class="md:border-r-2">
+            <span class="block text-lg my-2 font-semibold text-center">5000+</span>
+            <span class="block text-base my-1 font-light text-center font-light">Websites Hosted</span>
+            </div>
+            <div class="">
+            <span class="block text-lg my-2 font-semibold text-center">80+</span>
+            <span class="block text-base my-1 font-light text-center">Customers Satisfied</span>
+          </div>
+          </div>
+          <div>
+            <article class="prose text-center font-medium text-lg">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita veritatis optio
+              sunt officia corrupti facere harum eius assumenda possimus, unde consequuntur velit
+              hic quaerat rem iusto pariatur ex recusandae et. Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat....
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="sm:container mx-6 md:container md:mx-auto" id="pricing">
+        <div class="grid gap-10 mt-12">
+          <div>
+            <h2 class="text-xl text-center font-semibold">Pricing</h2>
+            <span class="block text-sm mt-2 font-medium text-center capitalize">Cheap and Affordable Hosting Plans</span>
+          </div>
+          <div class="grid gap-6 md:grid md:grid-cols-2 md:gap-6 lg:grid-cols-3">
+          <div class="card text-center shadow-2xl">
+            <div class="card-body">
+              <h3 class="card-title">Basic</h3>
+              <div>
+                <span class="block text-3xl text-center font-semibold leading-5">$3. <span class="text-lg font-medium">99</span><span class="text-sm font-light">/month</span></span>
+              </div>
+              <div class="text-left text-base font-medium mt-2">
+                <ul>
+                  <li class="py-2">Unlimited Storage</li>
+                  <li class="py-2">Unlimited BandWidth</li>
+                  <li class="py-2">Domain Registration</li>
+                  <li class="py-2">Free SSL Certificate</li>
+                </ul>
+                <small class="text-xs font-extralight"
+                  >Terms and conditions apply<span class="text-error">*</span></small
+                >
+              </div>
+              <div class="card-actions">
+                <a href="" class="btn btn-secondary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card text-center border border-secondary shadow-2xl">
+            <div class="card-body">
+              <h3 class="card-title">Pro</h3>
+              <div>
+                <span class="block text-3xl text-center font-semibold leading-5">$5. <span class="text-lg font-medium">99</span><span class="text-sm font-light">/month</span></span>
+              </div>
+              <div class="text-left text-base font-medium mt-2">
+                <ul>
+                  <li class="py-2">Unlimited Storage</li>
+                  <li class="py-2">Unlimited BandWidth</li>
+                  <li class="py-2">Domain Registration</li>
+                  <li class="py-2">Free SSL Certificate</li>
+                  <li class="py-2">24/7 Customer Support</li>
+                </ul>
+                <small class="text-xs font-extralight"
+                  >Terms and conditions apply<span class="text-error">*</span></small
+                >
+              </div>
+              <div class="card-actions">
+                <a href="" class="btn btn-secondary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card text-center border-2 border-secondary shadow-2xl">
+            <div class="card-body">
+              <h3 class="card-title">Enterprise</h3>
+              <div>
+                <span class="block text-3xl text-center font-semibold leading-5">$9. <span class="text-lg font-medium">99</span><span class="text-sm font-light">/month</span></span>
+              </div>
+              <div class="text-left text-base font-medium mt-2">
+                <ul>
+                  <li class="py-2">Unlimited Storage</li>
+                  <li class="py-2">Unlimited BandWidth</li>
+                  <li class="py-2">Domain Registration</li>
+                  <li class="py-2">Free SSL Certificate</li>
+                  <li class="py-2">24/7 Customer Support</li>
+                  <li class="py-2">On Premises Help</li>
+                </ul>
+                <small class="text-xs font-extralight"
+                  >Terms and conditions apply<span class="text-error">*</span></small
+                >
+              </div>
+              <div class="card-actions">
+                <a href="" class="btn btn-secondary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="sm:container mx-6 md:container md:mx-auto" id="contact">
+        <div class="grid gap-10 mt-12">
+          <div> 
+            <h2 class="text-xl text-center font-semibold">Contact Us</h2>
+            <span class="block text-sm mt-2 font-medium text-center capitalize">24/7 Always and Anywhere</span>
+          </div>
+          <div>
+            <span class="block text-lg my-2 font-semibold text-center">Email</span>
+            <span class="block text-base my-1 font-light text-center font-light">info@dotdot.com</span>
+            <span class="block text-lg my-2 font-semibold text-center">Phone</span>
+            <span class="block text-base my-1 font-light text-center font-light">(555) 1234 5678</span>
+            <span class="block text-lg my-2 font-semibold text-center">Address</span>
+            <span class="block text-base my-1 font-light text-center font-light">Dot Dot House, 1 Hostanywhere, New York</span>
+          </div>
+          <div class="shadow-xl bg-primary mt-4 rounded-xl md:mx-24">
+            <form class="p-4">
+              <div class="form-control p-2">
+                <input type="text" class="input" placeholder="Name">
+              </div>
+              <div class="form-control p-2">
+                <input type="text" class="input" placeholder="Email">
+              </div>
+              <div class="form-control p-2">
+                <textarea name="message" class="textarea" cols="10" rows="5" placeholder="Message"></textarea>
+              </div>
+              <div class="p-2">
+                <button class="btn btn-secondary">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="sm:container mt-6 md:container md:mx-auto">
+          <div class="text-center font-semibold my-4 text-2xl"><span>Join Our Mailing List</span></div>
+          <span class="block text-lg font-semibold text-center my-2">News, Offers and More</span>
+          <div class="bg-secondary p-4 h-44 items-center justify-center flex">
+            <input type="text" class="input" placeholder="Your Email Address">
+            <a href="" class="btn btn-primary ml-2">Join</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="">
+      <div class="pt-6 px-6 grid gap-0">
+        <div>
+          <h4 class="font-title text-xl font-bold">Dot Dot</h4>
+          <hr />
+        </div>
+        <div>
+          <div class="text-lg font-semibold text-primary py-2">
+            <span>Quick Links</span>
+          </div>
+          <div class="md:grid md:grid-cols-3 md:gap-10">
+            <div>
+          <div class="text-base text-primary font-medium py-2"><span>Hosting</span></div>
+          <div class="text-sm font-light py-1">
+            <ul>
+              <li>Shared Hosting</li>
+              <li>Dedicated Hosting</li>
+              <li>Application Hosting</li>
+              <li>Cloud Hosting</li> 
+            </ul>
+          </div>
+            </div>
+          <div>
+          <div class="text-base text-primary font-medium py-2"><span>Plans</span></div>
+          <div class="text-sm font-light py-1">
+            <ul>
+              <li>Basic</li>
+              <li>Pro</li>
+              <li>Enterprise</li>
+              <li>Custom Plans</li> 
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div>
+          <div class="text-base text-primary font-medium py-2"><span>Company</span></div>
+          <div class="text-sm font-light py-1">
+            <ul>
+              <li>Board</li>
+              <li>Events</li>
+              <li>Promos</li>
+              <li>Partners</li> 
+            </ul>
+          </div>
+        </div>
+        </div>
+          </div>
+          <div class="py-1 flex justify-between items-end md:justify-start">
+            <span class="text-sm font-medium">Terms and Conditions</span>
+            <span class="text-sm font-medium pl-4">Privacy Policy</span>
+          </div>
+          <div class="py-2 flex justify-evenly items-center text-center text-2xl">
+            <span class=""><i class="bx bxl-facebook-square transform hover:scale-110 hover:text-primary"></i></span>
+            <span><i class="bx bxl-twitter transform hover:scale-110 hover:text-primary"></i></span>
+            <span><i class="bx bxl-telegram hover:text-primary transform hover:scale-110"></i></span>
+            <span><i class="bx bxl-github hover:text-primary transform hover:scale-110"></i></span>
+            <span><i class="bx bxl-linkedin-square hover:text-primary transform hover:scale-110"></i></span>
+            <span><i class="bx bxl-discord hover:text-primary transform hover:scale-110"></i></span>
+          </div>
+      </div>
+      <div class="py-2 md:my-4">
+        <p class="text-center text-primary text-xs font-thin font-title">Copyright &copy; 2021 Victor Akpan</p>
+      </div>
+    </footer>
+      <a id="scrollTop" href="#" class="-bottom-1/4 btn btn-secondary btn-square btn-small fixed right-4 z-10"><i class="bx bx-chevron-up text-lg"></i></a>
+    <script src="js/main.js"></script>
+  </body>
+</html>
